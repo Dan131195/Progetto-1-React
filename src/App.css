@@ -12,8 +12,10 @@ body,
   font-size: 1rem;
 }
 
-#root {
-  width: 90%;
+header,
+main,
+#myAccount {
+  width: 90% !important;
   margin: auto;
 }
 
@@ -63,12 +65,21 @@ nav a i:hover {
 
 footer {
   background-color: #000000 !important;
+  color: gray !important;
+  border-top: 1px solid #80808014;
 }
 
 footer section div a {
   text-decoration: none;
+  color: gray !important;
 }
 
 footer section div a:hover {
-  color: #a6a6a6 !important;
+  color: #ffffff !important;
+}
+
+/* ACCOUNT */
+
+.accountLink:hover {
+  color: #0566ee !important;
 }

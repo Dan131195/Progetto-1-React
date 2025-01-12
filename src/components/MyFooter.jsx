@@ -1,6 +1,6 @@
 const MyFooter = function () {
   return (
-    <footer>
+    <footer className="container-fluid py-2">
       <section id="socials" className="container">
         <i className="bi bi-facebook text-secondary me-2"></i>
         <i className="bi bi-instagram text-secondary mx-2"></i>
