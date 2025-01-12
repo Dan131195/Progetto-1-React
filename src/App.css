@@ -18,6 +18,7 @@ main,
   margin: auto;
 }
 
+#root,
 nav a:hover,
 nav a i:hover,
 footer section div a:hover,
@@ -88,7 +89,7 @@ footer section div a {
 }
 
 .accountLink:hover {
-  color: #3270ff !important;
+  color: #0072f5 !important;
 }
 
 #cancelMembershipButton:hover {

@@ -59,11 +59,11 @@ const MyAccount = function () {
               <a href="javascript:void(0)" className="accountLink">
                 Update payment info
               </a>
-              <a href="javascript:void(0)" className="accountLink">
+              <a href="javascript:void(0)" className="accountLink my-3">
                 {" "}
                 Billing details
               </a>
-              <a href="javascript:void(0)" className="accountLink">
+              <a href="javascript:void(0)" className="accountLink mb-3">
                 Redeem giftcard of prom code
               </a>
               <a href="javascript:void(0)" className="accountLink">

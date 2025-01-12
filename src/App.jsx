@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <MyNavBar />
-      {/* <h4>Star Wars</h4>
+      <h4>Star Wars</h4>
       <Movie movie="Star Wars" />
       <h4>Harry Potter</h4>
       <Movie movie="Harry Potter" />
@@ -21,11 +21,22 @@ function App() {
       <h4>Naruto</h4>
       <Movie movie="Naruto" />
       <h4>One Piece</h4>
-      <Movie movie="One Piece" /> */}
+      <Movie movie="One Piece" />
+
+      <hr className="text-white border-3" />
+      <br />
+      <hr className="text-white border-3" />
+
       {/* Pagina Account */}
-      <MyAccount />
-      {/* Pagina Profilo */}
       <MyProfile />
+
+      <hr className="text-white border-3" />
+      <br />
+      <hr className="text-white border-3" />
+
+      {/* Pagina Profilo */}
+      <MyAccount />
+
       <br />
       <br />
       <br />
