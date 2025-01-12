@@ -13,12 +13,12 @@ body,
 
 header,
 main,
-#myAccount {
+#myAccount,
+.titleSaga {
   width: 90% !important;
   margin: auto;
 }
 
-#root,
 nav a:hover,
 nav a i:hover,
 footer section div a:hover,
