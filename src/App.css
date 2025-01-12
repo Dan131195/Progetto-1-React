@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  color: #ffffff !important;
 }
 
 html,
@@ -19,6 +18,15 @@ main,
   margin: auto;
 }
 
+nav a:hover,
+nav a i:hover,
+footer section div a:hover,
+.btnFooter:hover,
+.profileButton1:hover,
+#cancelMembershipButton:hover {
+  color: #ffffff !important;
+}
+
 /* NAVBAR */
 
 #logo {
@@ -29,9 +37,8 @@ main,
   width: 3rem;
 }
 
-nav a:hover,
-nav a i:hover {
-  color: #ffffff !important;
+#dropdownMenu a:hover {
+  background-color: #5655556f !important;
 }
 
 /* MAIN */
@@ -65,23 +72,27 @@ nav a i:hover {
 
 footer {
   background-color: #000000 !important;
-  color: gray !important;
   border-top: 1px solid #80808014;
 }
 
 footer section div a {
   text-decoration: none;
-  color: gray !important;
-}
-
-footer section div a:hover {
-  color: #ffffff !important;
+  color: #6a696970 !important;
 }
 
 /* ACCOUNT */
 
+.accountLink {
+  color: #0a28bb !important;
+  text-decoration: none;
+}
+
 .accountLink:hover {
-  color: #0566ee !important;
+  color: #3270ff !important;
+}
+
+#cancelMembershipButton:hover {
+  background-color: #808080 !important;
 }
 
 /* PROFILO */
@@ -108,8 +119,4 @@ footer section div a:hover {
 .profileButton1:hover,
 .profileButton2:hover {
   background-color: #0566ee !important;
-}
-
-.profileButton1:hover {
-  color: #ffffff !important;
 }

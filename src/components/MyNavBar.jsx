@@ -91,7 +91,10 @@ const MyNavBar = function () {
                   id="avatar"
                 />
               </button>
-              <ul className="dropdown-menu dropdown-menu-lg-end bg-black">
+              <ul
+                className="dropdown-menu dropdown-menu-lg-end bg-black"
+                id="dropdownMenu"
+              >
                 <li>
                   <a
                     id="dropdown"

@@ -21,8 +21,11 @@ const MyFooter = function () {
           <a href="javascript:void(0)" className="my-2">
             Contact US
           </a>
-          <button type="button" className="btn btn-outline-secondary my-2">
-            <a href="javascript:void(0)">Service Code</a>
+          <button
+            type="button"
+            className="btn btn-outline-secondary my-2 btnFooter text-secondary"
+          >
+            Service Code
           </button>
           <p className="text-secondary my-2">&copy; 1997-2021 Netflix Inc</p>
         </div>

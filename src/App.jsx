@@ -4,8 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import MyNavBar from "./components/MyNavBar";
 import MyFooter from "./components/MyFooter";
-// import Movie from "./components/Movie";
-// import MyAccount from "./components/MyAccount";
+import Movie from "./components/Movie";
+import MyAccount from "./components/MyAccount";
 import MyProfile from "./components/MyProfile";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
       <h4>One Piece</h4>
       <Movie movie="One Piece" /> */}
       {/* Pagina Account */}
-      {/* <MyAccount /> */}
+      <MyAccount />
       {/* Pagina Profilo */}
       <MyProfile />
       <br />

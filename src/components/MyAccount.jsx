@@ -10,7 +10,8 @@ const MyAccount = function () {
           <h3 className="text-secondary">MEMBERSHIP & BILLING</h3>
           <button
             type="reset"
-            className="px-4 py-2 bg-body-secondary rounded-2"
+            className="px-4 py-2 bg-body-secondary rounded-2 my-2"
+            id="cancelMembershipButton"
           >
             Cancel Membership
           </button>
