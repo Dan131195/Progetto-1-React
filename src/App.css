@@ -104,3 +104,12 @@ footer section div a:hover {
   border-radius: 50%;
   border: 2px solid #ffffff;
 }
+
+.profileButton1:hover,
+.profileButton2:hover {
+  background-color: #0566ee !important;
+}
+
+.profileButton1:hover {
+  color: #ffffff !important;
+}

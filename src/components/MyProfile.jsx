@@ -68,13 +68,22 @@ const MyProfile = function () {
           </div>
           <hr />
 
-          <button type="submit" className="bg-light px-4 fw-bold">
+          <button
+            type="submit"
+            className="bg-light px-4 fw-bold text-black border rounded-1 profileButton1"
+          >
             SAVE
           </button>
-          <button type="reset" className="bg-dark text-white border px-3">
+          <button
+            type="reset"
+            className="bg-dark text-white border px-3 mx-3 rounded-1 profileButton2"
+          >
             CANCEL
           </button>
-          <button type="reset" className="bg-dark text-white border px-3">
+          <button
+            type="reset"
+            className="bg-dark text-white border px-3 rounded-1 profileButton2"
+          >
             DELETE PROFILE
           </button>
         </div>
