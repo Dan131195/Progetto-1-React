@@ -83,3 +83,24 @@ footer section div a:hover {
 .accountLink:hover {
   color: #0566ee !important;
 }
+
+/* PROFILO */
+
+#myProfile {
+  width: 60%;
+  margin: auto;
+}
+
+#myProfileAvatar {
+  position: relative;
+}
+
+.myPen {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}

@@ -3,13 +3,17 @@ import Form from "react-bootstrap/Form";
 
 const MyProfile = function () {
   return (
-    <Container id="myProfile" className="pt-5 ps-5 text-white">
+    <Container id="myProfile" className="container-fluid pt-5 ps-5 text-white">
       <h1 className="display-1">Edit Profile</h1>
       <hr />
       <div className="d-flex flex-column flex-lg-row row gap-2">
         <div id="myProfileAvatar" className="position-relative col-12 col-lg-3">
-          <img src="Assets/Img/avatar.png" alt="Avatar" />
-          <span className="bg-black position-absolute d-flex justify-content-center align-items-center">
+          <img
+            src="../../public\assets\Img\avatar.png"
+            alt="Avatar"
+            width={180}
+          />
+          <span className="bg-black position-absolute d-flex justify-content-center align-items-center myPen">
             <i className="bi bi-pencil-fill"></i>
           </span>
         </div>
